@@ -19,6 +19,8 @@ nestJS Starter.
 * https://nodejs.org/en/download/
 $  node -v
 $  npm -v
+$  npm install typescript --save-dev
+$  npx  tsc  file.ts  orr  tsc  file.ts
 
 $ npm install -g @nestjs/cli
 $ nest --help
