@@ -43,7 +43,7 @@ $ nest generate --help
 ```
 
 ```
-*Generate all with
+*CRUD Generator all with
 ```
 nest   generate resource  tutorial
 ```
@@ -93,3 +93,17 @@ DB_PASSWORD=
 DB_DATABASE=shopping_list
 DB_SYNCHRONIZE=true
 ```
+## Prisma CLI: Database Modeling and Crud Generator
+
+```
+npm install prisma --save-dev
+```
+
+## Prisma Client
+
+```
+$ npm install @prisma/client
+```
+
+
+
