@@ -39,15 +39,14 @@ $  @nest generate --help
 ```
 
 ```
-nest g module chocolate
+nest   generate resource  tutorial
 
-nest g controller chocolate
+nest g module tutorial
 
-nest g service chocolate
+nest g controller tutorial
 
-```
-
-
-```
+nest g service tutorial
 
 ```
+
+
