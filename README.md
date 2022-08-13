@@ -13,6 +13,7 @@ nestJS Starter.
 - https://itnext.io/crud-api-in-3-lines-using-nestjs-692df3d61160
 - https://docs.nestjs.com/cli/overview
 - https://www.sidechannel.blog/en/creating-an-api-with-nestjs/
+- https://arctype.com/blog/sqlite-nestjs-tutorial/
 - https://betterprogramming.pub/nestjs-challenge-take-the-basic-steps-and-start-developing-a-rest-api-5401b234d834
 
 ##  Install Nodejs and NestJS
@@ -56,3 +57,39 @@ nest g service tutorial
 ```
 ## NestJs StandardMode(tsc)  vs MonoMod(webpack)
 
+## Install Dependencies
+```
+Passport
+Passport-local
+Jwt
+Passport-jwt
+SQLIte3
+TypeORM
+Bcrypt
+
+
+```
+
+```
+$ npm install --save @nestjs/passport passport passport-local @nestjs/jwt passport-jwt @nestjs/typeorm typeorm sqlite3 bcrypt
+
+-- dev dependencies --
+$ npm install --save-dev @types/passport-local @types/passport-jwt @types/bcrypt   
+
+```
+
+-- Dotenv  (.env)  at the root of the project ---
+```
+npm install --save @nestjs/config
+```
+*.env
+```
+SERVER_PORT=3000
+MODE=DEV
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=
+DB_DATABASE=shopping_list
+DB_SYNCHRONIZE=true
+```
