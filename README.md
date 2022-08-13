@@ -27,6 +27,8 @@ $  @nest generate --help
 ```
   nest  new  myproject
   cd myproject
+  npm  run start:dev
+  run:  localhost:3000
 ```
 
 ```
