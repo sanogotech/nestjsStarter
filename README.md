@@ -16,11 +16,12 @@ nestJS Starter.
 
 ##  Install Nodejs and NestJS
 ```
+* https://nodejs.org/en/download/
+$  node -v
+$  npm -v
 
 $ npm install -g @nestjs/cli
-
 $ nest --help
-
 $  @nest generate --help
 ```
 ## TOP  nest commands
