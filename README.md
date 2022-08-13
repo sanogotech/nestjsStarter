@@ -24,7 +24,7 @@ $  npx  tsc  file.ts  orr  tsc  file.ts
 
 $ npm install -g @nestjs/cli
 $ nest --help
-$  @nest generate --help
+$ nest generate --help
 ```
 ## TOP  nest commands
    * nest   new  project
