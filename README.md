@@ -50,5 +50,5 @@ nest g controller tutorial
 nest g service tutorial
 
 ```
-
+## NestJs StandardMode(tsc)  vs MonoMod(webpack)
 
