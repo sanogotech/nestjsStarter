@@ -41,7 +41,10 @@ $ nest generate --help
 ```
 
 ```
+*Generate all with
+```
 nest   generate resource  tutorial
+```
 
 nest g module tutorial
 
