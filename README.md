@@ -23,7 +23,11 @@ $ nest --help
 
 $  @nest generate --help
 ```
-
+## TOP  nest commands
+   * nest   new  project
+   * nest   generate resource or module or controller or service
+   * nest  add  lib
+   * nest  info 
 ## CRUD API in 3 lines using NestJS
 * Create project
 ```
