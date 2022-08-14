@@ -98,6 +98,7 @@ DB_SYNCHRONIZE=true
 
 ```
 npm install prisma --save-dev
+npx prisma init
 ```
 
 ## Prisma Client
