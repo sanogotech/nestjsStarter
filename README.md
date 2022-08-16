@@ -100,7 +100,17 @@ DB_SYNCHRONIZE=true
 ## Prisma CLI: Database Modeling and Crud Generator
 
 ```
+<<<<<<< HEAD
 $ npm install prisma --save-dev
+=======
+npm install prisma --save-dev
+npx prisma init
+```
+
+## Prisma Client
+
+```
+>>>>>>> d704ab5706029869e7f868bfbc04bc58c93708e8
 $ npm install @prisma/client
 
 1. npx prisma init
