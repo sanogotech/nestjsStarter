@@ -10,12 +10,15 @@ nestJS Starter.
 
 
 ## Docs
+-  https://www.sitepoint.com/typescript-vs-javascript/
 - https://itnext.io/crud-api-in-3-lines-using-nestjs-692df3d61160
 - https://docs.nestjs.com/cli/overview
 - https://www.sidechannel.blog/en/creating-an-api-with-nestjs/
 - https://blog.devsharma.live/nest-js-rest-api-tutorial
 - https://arctype.com/blog/sqlite-nestjs-tutorial/
 - https://betterprogramming.pub/nestjs-challenge-take-the-basic-steps-and-start-developing-a-rest-api-5401b234d834
+- https://www.prisma.io/blog/nestjs-prisma-rest-api-7D056s1BmOL0
+- https://progressivecoder.com/build-a-nestjs-prisma-rest-api/
 
 ##  Install Nodejs and NestJS
 ```
@@ -97,14 +100,13 @@ DB_SYNCHRONIZE=true
 ## Prisma CLI: Database Modeling and Crud Generator
 
 ```
-npm install prisma --save-dev
-```
-
-## Prisma Client
-
-```
+$ npm install prisma --save-dev
 $ npm install @prisma/client
+
+1. npx prisma init
+2. npx prisma migrate dev --name init
 ```
+
 
 
 
