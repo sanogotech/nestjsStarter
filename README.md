@@ -10,6 +10,7 @@ nestJS Starter.
 
 
 ## Docs
+- https://medium.com/@codeeverywhere/nestjs-and-its-advantages-for-backend-developers-43c2da5ff05e
 -  https://www.sitepoint.com/typescript-vs-javascript/
 - https://itnext.io/crud-api-in-3-lines-using-nestjs-692df3d61160
 - https://docs.nestjs.com/cli/overview
