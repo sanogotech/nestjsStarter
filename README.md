@@ -50,7 +50,11 @@ $ nest generate --help
 ```
 *CRUD Generator all with
 ```
+
+```|
 nest   generate resource  tutorial
+```
+
 ```
 
 nest g module tutorial
