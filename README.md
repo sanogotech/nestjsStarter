@@ -52,9 +52,10 @@ $ nest generate --help
 ```
 
 ```|
+* https://docs.nestjs.com/recipes/crud-generator
 nest   generate resource  tutorial
 ```
-
+$ npm install --save @nestjs/swagger swagger-ui-express
 ```
 
 nest g module tutorial
@@ -64,6 +65,15 @@ nest g controller tutorial
 nest g service tutorial
 
 ```
+## Swagger
+
+- https://progressivecoder.com/a-guide-to-nestjs-swagger-configuration/
+
+```
+
+```
+
+
 ## NestJs StandardMode(tsc)  vs MonoMod(webpack)
 
 ## Install Dependencies
